@@ -10,17 +10,16 @@ library(png)
 
 # png(file.path(getwd(), image, "test.png")); plot(0); dev.off()
 # Gmail users may have to switch https://www.google.com/settings/security/lesssecureapps before the send
-send.mail(from = "duroy.raphael@gmail.com",
-          to = "thomas.reignard@iacpartners.com",
+send.mail(from = "xxx",
+          to = "xxx",
           subject = "Newsletter IAC",
-          #body = '<img src="logo-iac-white.png">',
           body = 'template.html',
           html = TRUE,
           inline = TRUE,
           smtp = list(host.name = "smtp.gmail.com", 
                       port = 465, 
-                      user.name = "duroy.raphael@gmail.com", 
-                      passwd = "raphaelduroygmail", 
+                      user.name = "xxx", 
+                      passwd = "xxx", 
                       ssl = TRUE),
           authenticate = TRUE,
           send = TRUE)
